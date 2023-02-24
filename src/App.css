@@ -1,0 +1,41 @@
+p{
+    display: inline-block;
+    margin: 5px;
+}
+h1{
+    margin-bottom: 0px;
+}
+h6{
+    margin-top: 0px;
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    justify-items: center;
+}
+.nav{
+    display: flex;
+    padding: 0px 100px;
+}
+.bcart{
+    margin-left: auto;
+}
+.title{
+    margin: 5px 0px 30px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgb(19, 18, 18);
+}
+
+.item-img{
+    background-color: blue;
+    width: 250px;
+    height: 150px;
+}
+.card{
+    width: 250px;
+    height: 350px;
+    text-align: center;
+}
